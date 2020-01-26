@@ -62,3 +62,20 @@ h1 {
   background-color: #a3262a;
   border-radius: 0.5em;
 }
+
+@media only screen and (max-width: 600px) {
+  .App {
+    .title {
+      font-size: 72px !important;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px !important;
+    }
+    .relations {
+      button {
+        font-size: 20px !important;
+      }
+    }
+  }
+}
