@@ -1,7 +1,16 @@
 @font-face {
   font-family: "Flood";
   src: url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.eot");
-  src: url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.woff") format("woff"), url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.svg#Flood") format("svg");
+  src: url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/9f261231465bdc26bcf1aec6ae788652.svg#Flood")
+      format("svg");
 }
 
 body {
@@ -18,14 +27,14 @@ body .App {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 body .App h1 {
@@ -76,6 +85,9 @@ h1 {
   }
   .App .relations button {
     font-size: 20px !important;
+  }
+  #name {
+    font-size: 52px !important;
   }
 }
 /*# sourceMappingURL=App.css.map */
